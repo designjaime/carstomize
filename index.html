@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <title>customize toycar</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
+    <link rel="stylesheet" href="css/signin.css">
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-118957003-1"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag() { dataLayer.push(arguments); }
+        gtag('js', new Date());
+
+        gtag('config', 'UA-118957003-1');
+    </script>
+
+</head>
+
+<body>
+    <div class="container">
+        <div class="logo">
+            <a href="home.html">
+                <img src="img/logo.png"> </a>
+        </div>
+        <div class="user-modal">
+            <div class="user-modal-container">
+                <ul class="switcher">
+                    <li>
+                        <a href="#0">Sign in</a>
+                    </li>
+                    <li>
+                        <a href="#0">New account</a>
+                    </li>
+                </ul>
+                <div id="login">
+                    <form class="form">
+                        <p class="fieldset">
+                            <label class="image-replace email" for="signin-email">E-mail</label>
+                            <input class="full-width has-padding has-border" id="signin-email" type="email"
+                                placeholder="E-mail"> </p>
+                        <p class="fieldset">
+                            <label class="image-replace password" for="signin-password">Password</label>
+                            <input class="full-width has-padding has-border" id="signin-password" type="password"
+                                placeholder="Password">
+                            <a href="#0" class="hide-password">Show</a>
+                        </p>
+                        <p class="fieldset">
+                            <input type="checkbox" id="remember-me" checked>
+                            <label for="remember-me">Remember me</label>
+                        </p>
+                        <p class="fieldset">
+                            <input class="full-width" type="submit" value="Login" onclick="handleSignin();"> </p>
+                    </form>
+                    <a href="#0" class="close-form">Close</a>
+                </div>
+                <div id="signup">
+                    <form class="form">
+                        <p class="fieldset">
+                            <label class="image-replace email" for="signup-email">E-mail</label>
+                            <input class="full-width has-padding has-border" id="signup-email" type="email"
+                                placeholder="E-mail"> </p>
+                        <p class="fieldset">
+                            <label class="image-replace password" for="signup-password">Password</label>
+                            <input class="full-width has-padding has-border" id="signup-password" type="password"
+                                placeholder="Password">
+                            <a href="#0" class="hide-password">Show</a>
+                        </p>
+                        <p class="fieldset">
+                            <input type="checkbox" id="accept-terms">
+                            <label for="accept-terms">I agree to the
+                                <a class="accept-terms" href="#0">Terms</a>
+                            </label>
+                        </p>
+                        <p class="fieldset">
+                            <input class="full-width has-padding" type="submit" value="Create account" onclick="handleSignup();"> </p>
+                    </form>
+                </div>
+                <div id="reset-password">
+                    <p class="form-message">Lost your password? Please enter your email address.</br> You will receive a link to create a new password.</p>
+                    <form class="form">
+                        <p class="fieldset">
+                            <label class="image-replace email" for="reset-email">E-mail</label>
+                            <input class="full-width has-padding has-border" id="reset-email" type="email"
+                                placeholder="E-mail"> </p>
+                        <p class="fieldset">
+                            <input class="full-width has-padding" type="submit" value="Reset password"> </p>
+                    </form>
+                    <p class="form-bottom-message">
+                        <a href="#0">Back to log-in</a>
+                    </p>
+                </div>
+                <a href="#0" class="close-form">Close</a>
+            </div>
+        </div>
+    </div>
+    <br>
+    <div class="container">
+        <div class="text-center">
+            <div class="input_control">
+                <input type="submit" id="fblogin" class="loginBtn btn-primary" value="Facebook Login" onclick="handleFBlogin();">
+                <input type="submit" id="googlelogin" class="loginBtn btn-primary" value="Google Login" onclick="handlegooglelogin();"> </div>
+        </div>
+    </div>
+    <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+    <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/4.12.1/firebase.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/4.12.1/firebase-firestore.js"></script>
+    <script src="js/firebase-controller.js"></script>
+    <script src="js/functions.js"></script>
+    <script src="js/signin.js"></script>
+    <script src="js/auth.js"></script>
+
+</body>
+
+</html>
