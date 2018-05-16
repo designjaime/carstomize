@@ -1,5 +1,6 @@
 # What is Carstomize ?
-The Carstomize is a simple web-based appication for small business to easily support the customer wait list.
+The Carstomize is a simple web-based appication for customize toy cars for children or parents. 
+Users customize the toy car with changing color, add sounds or stickers and also play the race game or purchase it.
 
 ## How to use ?
 The project should open in webserver or localhost. See the [Demo](https://www.carstomize.xyz)
