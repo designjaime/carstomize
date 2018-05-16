@@ -1,5 +1,5 @@
 # What is Carstomize ?
-The Waitlist is a simple web-based appication for small business to easily support the customer wait list.
+The Carstomize is a simple web-based appication for small business to easily support the customer wait list.
 
 ## How to use ?
 The project should open in webserver or localhost. See the [Demo](https://www.carstomize.xyz)
