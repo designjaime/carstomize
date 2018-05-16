@@ -7,6 +7,8 @@ The project should open in webserver or localhost. See the [Demo](https://www.ca
 
 ### Screenshot
 ![alt homepage](https://raw.githubusercontent.com/designjaime/carstomize/master/screenshots/homepage.png)
+![alt customize page](https://raw.githubusercontent.com/designjaime/carstomize/master/screenshots/customizepage.png)
+
 
 ## Which Libraries are used 
 * [jQuery 3.3.1](https://jquery.com/download/)
