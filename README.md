@@ -19,7 +19,7 @@ The project should open in webserver or localhost. See the [Demo](https://www.ca
 * [Bootstrap 4.0]()
 * [Font Awesome 4.7]()
 * [mix-blend-mode](https://developer.mozilla.org/en-US/docs/Web/CSS/mix-blend-mode):color change on image using css syntax
-* [race game](https://www.youtube.com/watch?v=oWaGkW1YDmk)
+* [race game](https://github.com/arshadasgar/arshadasgar.github.io/tree/master/traffic_racer)
 
 # Contributions
 Just fork it, make changes, and submit a pull request.
